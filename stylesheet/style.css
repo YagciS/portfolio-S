@@ -1,0 +1,30 @@
+.page1{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+.main{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+.inner{
+    position: relative;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 3rem 3rem;
+    max-width: 100%;
+    background-color: aquamarine;
+}
