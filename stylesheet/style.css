@@ -26,3 +26,27 @@
     justify-content: center;
     height: 40vh;
 }
+.main-text{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494965, #6f6f90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p-text{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585773;
+}
+.cta {
+    padding: 50px 0 0 0;
+}
+.cta-select{
+    border: 2px solid #6f6f90;
+    background: transparent;
+    color: rgb(149, 85, 7);
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
