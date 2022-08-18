@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* Layout of Page 1*/
+
 .page1 {
     display: flex;
     height: 100vh;
@@ -10,15 +12,14 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.001);
 }
 
 .presentation {
     display: flex;
-    z-index: 1;
 }
 
 .introduction {
-    z-index: 1;
     padding: 3rem;
     width: 60rem;
     display: flex;
@@ -26,6 +27,7 @@
     justify-content: center;
 }
 
+/* Image */
 
 img {
     max-width: 35vw;
@@ -36,7 +38,9 @@ img {
     width: inherit;
 }
 
-.text-box{
+/* Text */
+
+.text-box {
     padding-left: 3rem;
 }
 
@@ -44,7 +48,7 @@ img {
     font-size: 4.25em;
     font-weight: 600;
     padding-bottom: 2%;
-    background: linear-gradient(to right, #494965, #6f6f90);
+    background: linear-gradient(to right, #3b3b5b, #69698d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -52,50 +56,15 @@ img {
 .p-text {
     padding: 4% 0;
     font-size: 1.5em;
-    color: #585773;
+    color: #43425e;
 }
 
-#icons01 {
-    font-size: 2em;
-    margin-left: -0.5rem;
-}
+/* Icons */
 
 .icons {
     cursor: default;
-    padding: 0;
-    letter-spacing: 0;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-#icons01 li {
-    margin: 0.5rem;
-}
-
-.icons li {
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    z-index: 1;
-}
-
-#icons01 li a {
-    border-radius: 100%;
-    width: 2em;
-    height: 2em;
-    transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
-}
-
-#icons01 a {
-    background-color: aquamarine;
-}
-
-.icons li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 2em;
+    margin-left: -0.5rem;
 }
 
 a {
@@ -103,21 +72,70 @@ a {
     text-decoration: underline;
 }
 
-#icons01 li a svg {
-    width: 60%;
-    height: 60%;
-    transition: fill 0.5s ease;
+.icons a {
+    background-color: rgb(180, 218, 248);
 }
 
-#icons01 a svg {
-    fill: rgba(0, 0, 0, 0.651);
+.icons li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    margin: 0.5rem;
+}
+
+
+.icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.icons a svg {
+    fill: rgba(0, 0, 0, 0.80);
 }
 
 .icons li a svg {
+    width: 60%;
+    height: 60%;
+    transition: fill 0.5s ease;
     display: block;
     position: relative;
 }
 
-.icons li a .label {
+
+.label {
     display: none;
+}
+
+
+/* Background */
+
+.big-circle {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+    height: 80%;
+}
+
+.medium-circle {
+    position: absolute;
+    top: 20%;
+    right: 65%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.4;
+}
+
+.small-circle {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    z-index: -1;
 }
