@@ -1,7 +1,8 @@
-*, *:before, *:after{
+*, *:before, *:after {
     box-sizing: border-box;
 }
-.page1{
+
+.page1 {
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -10,12 +11,14 @@
     justify-content: center;
     min-height: 100vh;
 }
+
 .presentation {
     display: flex;
     z-index: 1;
     background-color: antiquewhite;
-    transition: opacity 1.25s ease 0.125s,transform 1.25s ease 0.125s;
+    transition: opacity 1.25s ease 0.125s, transform 1.25s ease 0.125s;
 }
+
 .introduction {
     position: relative;
     z-index: 1;
@@ -39,7 +42,7 @@ img {
     width: inherit;
 }
 
-.main-text{
+.main-text {
     font-size: 4.25em;
     font-weight: 600;
     padding-bottom: 2%;
@@ -47,62 +50,76 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.p-text{
+
+.p-text {
     margin-top: 10px;
     font-size: 24px;
     color: #585773;
 }
-#icons01{
+
+#icons01 {
     font-size: 2.5em;
     margin-left: -0.5rem;
 }
-.icons{
+
+.icons {
     cursor: default;
     padding: 0;
     letter-spacing: 0;
 }
-ol, ul{
+
+ol, ul {
     list-style: none;
 }
-#icons01 li{
+
+#icons01 li {
     margin: 0.5rem;
 }
-.icons li{
+
+.icons li {
     display: inline-block;
     vertical-align: middle;
     position: relative;
     z-index: 1;
 }
-#icons01 li a{
+
+#icons01 li a {
     border-radius: 100%;
     width: 2em;
     height: 2em;
     transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
 }
-#icons01 a{
+
+#icons01 a {
     background-color: aquamarine;
 }
+
 .icons li a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-a{
+
+a {
     color: inherit;
     text-decoration: underline;
 }
-#icons01 li a svg{
+
+#icons01 li a svg {
     width: 60%;
     height: 60%;
     transition: fill 0.5s ease;
 }
-#icons01 a svg{
+
+#icons01 a svg {
     fill: rgba(0, 0, 0, 0.651);
 }
-.icons li a svg{
+
+.icons li a svg {
     display: block;
     position: relative;
 }
-.icons li a .label{
+
+.icons li a .label {
     display: none;
 }
