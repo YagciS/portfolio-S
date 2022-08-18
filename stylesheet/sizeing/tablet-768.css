@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .introduction {
+        width: 100vw;
+        flex-direction: column;
+    }
+    .text-box{
+        padding-left: 0;
+        text-align: center;
+    }
+}

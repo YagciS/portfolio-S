@@ -1,3 +1,7 @@
+html{
+    font-size: 100%;
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -20,8 +24,8 @@
 }
 
 .introduction {
-    padding: 3rem;
-    width: 60rem;
+    padding: 2.5vw;
+    width: 80vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,11 +45,11 @@ img {
 /* Text */
 
 .text-box {
-    padding-left: 3rem;
+    padding-left: 3vw;
 }
 
 .main-text {
-    font-size: 4.25em;
+    font-size: 4.25vw;
     font-weight: 600;
     padding-bottom: 2%;
     background: linear-gradient(to right, #3b3b5b, #69698d);
@@ -55,15 +59,18 @@ img {
 
 .p-text {
     padding: 4% 0;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: #43425e;
+}
+#p1{
+    margin-bottom: 2%;
 }
 
 /* Icons */
 
 .icons {
     cursor: default;
-    font-size: 2em;
+    font-size: 2vw;
     margin-left: -0.5rem;
 }
 

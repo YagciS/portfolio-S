@@ -1,0 +1,12 @@
+@media screen and (max-width: 1440px) {
+    img{
+        max-width: 30vw;
+        max-height: 30vh;
+    }
+    .main-text{
+        font-size: 5vw;
+    }
+    .p-text{
+        font-size: 1.75vw;
+    }
+}
