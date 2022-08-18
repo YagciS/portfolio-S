@@ -1,23 +1,29 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .introduction {
         width: 100vw;
         flex-direction: column;
+        padding: 0;
     }
-    img{
+
+    img {
         max-width: 55vw;
         max-height: 55vh;
     }
-    .text-box{
+
+    .text-box {
         padding-left: 0;
         text-align: center;
     }
-    .main-text{
-        font-size: 9vw;
+
+    .main-text {
+        font-size: 3.5rem;
     }
-    .p-text{
-        font-size: 5vw;
+
+    .p-text {
+        font-size: 1.6rem;
     }
-    .icons{
-        font-size: 6vw;
+
+    .icons {
+        font-size: 2rem;
     }
 }
