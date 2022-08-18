@@ -15,14 +15,10 @@
 .presentation {
     display: flex;
     z-index: 1;
-    background-color: antiquewhite;
-    transition: opacity 1.25s ease 0.125s, transform 1.25s ease 0.125s;
 }
 
 .introduction {
-    position: relative;
     z-index: 1;
-    border-radius: inherit;
     padding: 3rem;
     width: 60rem;
     display: flex;
@@ -35,11 +31,13 @@ img {
     max-width: 35vw;
     max-height: 35vh;
     display: inline-block;
-    -webkit-transform: translate3d(0, 0, 0);
-    margin-right: 3rem;
     border: 10px solid white;
     border-radius: 100%;
     width: inherit;
+}
+
+.text-box{
+    padding-left: 3rem;
 }
 
 .main-text {
@@ -52,13 +50,13 @@ img {
 }
 
 .p-text {
-    margin-top: 10px;
-    font-size: 24px;
+    padding: 4% 0;
+    font-size: 1.5em;
     color: #585773;
 }
 
 #icons01 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-left: -0.5rem;
 }
 
