@@ -63,11 +63,13 @@ img {
 }
 
 /* Icons */
+.icon-box{
+    margin-left: -0.5rem;
+}
 
 .icons {
     cursor: default;
     font-size: 2rem;
-    margin-left: -0.5rem;
 }
 
 a {
@@ -86,7 +88,6 @@ a {
     z-index: 1;
     margin: 0.5rem;
 }
-
 
 .icons li a {
     display: flex;
@@ -110,11 +111,20 @@ a {
     position: relative;
 }
 
-
 .label {
     display: none;
 }
 
+.cta-res {
+    background: rgb(180, 218, 248);
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    margin: .5rem;
+}
 
 /* Background */
 
