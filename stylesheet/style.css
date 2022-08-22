@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Layout of Page 1*/
 
 .page1 {
@@ -58,12 +62,13 @@ img {
     font-size: 1.5rem;
     color: #43425e;
 }
-#p1{
+
+#p1 {
     margin-bottom: 2%;
 }
 
 /* Icons */
-.icon-box{
+.icon-box {
     margin-left: -0.5rem;
 }
 
