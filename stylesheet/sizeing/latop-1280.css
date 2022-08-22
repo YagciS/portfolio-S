@@ -1,0 +1,20 @@
+@media screen and (max-width: 1280px) {
+    .introduction {
+        width: 100vw;
+    }
+
+    .main-text {
+        font-size: 4.25rem;
+    }
+
+    .p-text {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        font-size: 2rem;
+    }
+    .cta-res {
+        font-size: 1rem;
+    }
+}

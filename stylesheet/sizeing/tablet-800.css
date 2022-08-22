@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+    .introduction {
+        width: 100vw;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    img {
+        max-width: 55vw;
+        max-height: 55vh;
+    }
+
+    .text-box {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .main-text {
+        font-size: 3.5rem;
+    }
+
+    .p-text {
+        font-size: 1.6rem;
+    }
+
+    .icons {
+        font-size: 2rem;
+    }
+    .cta-res {
+        font-size: 1rem;
+    }
+}

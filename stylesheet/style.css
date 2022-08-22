@@ -1,0 +1,154 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Layout of Page 1*/
+
+.page1 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.001);
+}
+
+.presentation {
+    display: flex;
+}
+
+.introduction {
+    padding: 2.5vw;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Image */
+
+img {
+    max-width: 40vw;
+    max-height: 40vh;
+    display: inline-block;
+    border: 10px solid white;
+    border-radius: 100%;
+    width: inherit;
+}
+
+/* Text */
+
+.text-box {
+    padding-left: 3vw;
+}
+
+.main-text {
+    font-size: 4.25rem;
+    font-weight: 600;
+    padding-bottom: 2%;
+    background: linear-gradient(to right, #3b3b5b, #69698d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-text {
+    padding: 4% 0;
+    font-size: 1.5rem;
+    color: #43425e;
+}
+#p1{
+    margin-bottom: 2%;
+}
+
+/* Icons */
+.icon-box{
+    margin-left: -0.5rem;
+}
+
+.icons {
+    cursor: default;
+    font-size: 2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.icons a {
+    background-color: rgb(180, 218, 248);
+}
+
+.icons li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    margin: 0.5rem;
+}
+
+.icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.icons a svg {
+    fill: rgba(0, 0, 0, 0.80);
+}
+
+.icons li a svg {
+    width: 60%;
+    height: 60%;
+    transition: fill 0.5s ease;
+    display: block;
+    position: relative;
+}
+
+.label {
+    display: none;
+}
+
+.cta-res {
+    background: rgb(180, 218, 248);
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    margin: .5rem;
+}
+
+/* Background */
+
+.big-circle {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+    height: 80%;
+}
+
+.medium-circle {
+    position: absolute;
+    top: 20%;
+    right: 65%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.4;
+}
+
+.small-circle {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    z-index: -1;
+}
